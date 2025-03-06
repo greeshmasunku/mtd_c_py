@@ -1,4 +1,3 @@
-// Accept a number from the user and check if it is Even.
 #include<stdio.h>
 int main()
 {

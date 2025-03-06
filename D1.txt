@@ -1,0 +1,32 @@
+MTD COMPETITATIVE PROGRAMMING TRAINING  mtd.nithin - yt channel
+
+DAY1 THURSDAY 06 MARCH 2025
+
+Steps to create a git repo
+> Drop down button next to plus sign > new repository > give a repositoty name >
+ Description > check on "Add a README file" > Click "Create repository"
+
+Keyboard shortcuts
+1. ctrl+shift+u [uppercase]
+2. ctrl+g
+3. ctrl+(arrows, backspace,..)
+4. Shift+End [to select the line]
+
+code, code . [vscode]
+gcc --version, g++ --version [mingw]
+git --version [git]
+cd foldername [to change directory]
+
+Important git commands
+
+> git status [to know the current status of the repo]
+> git clone <URL> [ex. https://github.com/greeshmasunku/mtd_c_py]
+>  git pull origin main [command to downlaod the updated repo from
+ the server to the local machine] -> [in repo folder cmd]
+ 
+To make our comuter recognise our git account, we must run these 2 configuratiob
+commands:
+> git config --global user.name "username"
+> git config --global user.email "email"
+
+credential manager > windows credentials - [to check the github account]

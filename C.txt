@@ -1,0 +1,78 @@
+MTD COMPETITATIVE PROGRAMMING TRAINING  mtd.nithin - yt channel
+
+DAY1 THURSDAY 06 MARCH 2025
+
+Steps to create a git repo
+> Drop down button next to plus sign > new repository > give a repositoty name >
+ Description > check on "Add a README file" > Click "Create repository"
+
+Keyboard shortcuts
+1. ctrl+shift+u [uppercase]
+2. ctrl+g
+3. ctrl+(arrows, backspace,..)
+4. Shift+End [to select the line]
+5. Alt+Z
+
+code, code . [vscode]
+gcc --version, g++ --version [mingw]
+git --version [git]
+cd foldername [to change directory]
+
+Important git commands
+
+> git status [to know the current status of the repo]
+> git clone <URL> [ex. https://github.com/greeshmasunku/mtd_c_py , https://github.com/neelmyna/vvce_mar25]
+>  git pull origin main [command to downlaod the updated repo from
+ the server to the local machine] -> [in repo folder cmd]
+ 
+To make our comuter recognise our git account, we must run these 2 configuratiob
+commands:
+> git config --global user.name "username"
+> git config --global user.email "email"
+
+credential manager > windows credentials - [to check the github account]
+----------------------------------------------------------------------
+
+
+DAY2 FRIDAY 07 MARCH 2025
+
+Arithmetic operators: + - * / % 
+- binary operators
+- i/p and o/p are numbers
+- Infix notations - pre, post
+- to perform any arithmetic operation, DT of both the operands must 
+  be same
+- left to right associtivity w.r.t reading the values/expressions
+- for the calculation to happen, the user/programmer given infix
+  epression must be converted to postfix.
+- the operators have different precedence.
+
+fflush(stdin); - flushes the i/p buffer
+for int i = 1; i <= 10; i++ --> easy readability
+for int i = 1; i < 11; i++
+
+Relational operators: > < == != >= <=
+- binary operators
+- i/p are numbers and o/p is boolean values/expressions
+- used with infix notations
+
+Logical operators: & && | || !
+- i/p are o/p of a relational expression(boolean) and o/p is boolean
+
+5 Steps to solve a problem.
+1. understand the problem. recognize the i/p data and the relevant information.
+   isolate the unwanted data and info. reognize the o/p.
+2. find the solution(s) with all possible wats, trial and error method, applying
+   an algorithm etc.
+3. Write down the algorithm
+   Step by step procedure to solve the problem.
+   Each step must be Atomic (SRP), simple and finite.
+4. Write the fake code (pseudo code)
+5. code it
+
+DAY3 SATURDAY 08 MARCH 2025
+%u - unisgned
+
+pointer arithmetic - an address is involved in an arithmetic operation.
+an uninitialized pointer possibly holding junk address. -> WILD pointer
+*p = NULL -> null pointer, a pointer which is not pointing any location in the memory.

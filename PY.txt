@@ -1,0 +1,19 @@
+DAY4 THURSDAY 13 MARCH 2025
+
+to find the path of python -> where python
+everything is treated as an object
+string objects are immutable
+
+vvce.capitalize() - methods
+len(vvce) - function
+
+no implicit type casting available - because it is highly dynamic in nature
+
+
+
+-----------------------------------------------------------------------------
+node --version  -- javascript
+python --version  -- python scripts
+(node package manager)npm --version  -- to install, uninstall, upgrade packages
+pip --version  -- to install, uninstall, upgrade packages
+-----------------------------------------------------------------------------

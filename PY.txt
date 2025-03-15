@@ -1,4 +1,18 @@
+1z0829
+1z0811
+pythoninstitute.org
+node js - linux foundation
+nptell cources
+cdac
+---------------------------------------------
+
 DAY4 THURSDAY 13 MARCH 2025
+---------------------------
+node --version    --> javascript
+python --version  --> python scripts
+npm --version     --> to install, uninstall, upgrade packages (node package manager)
+pip --version     --> to install, uninstall, upgrade packages
+-----------------------------------------------------------------------------
 
 to find the path of python -> where python
 everything is treated as an object
@@ -9,11 +23,60 @@ len(vvce) - function
 
 no implicit type casting available - because it is highly dynamic in nature
 
+Arithmetic operators: + - * / // ** %
+no ++ -- -> no ambiguity
 
+range()
+range(10)         [0, 10]
+range(2, 10)      [2, 10]
+range(1, 10, 3)   [1, 4, 7] - overriden increment of 3
+range(10, -5, -2) [10, -4, decrement of 2]
 
------------------------------------------------------------------------------
-node --version  -- javascript
-python --version  -- python scripts
-(node package manager)npm --version  -- to install, uninstall, upgrade packages
-pip --version  -- to install, uninstall, upgrade packages
------------------------------------------------------------------------------
+generic exception block (except:) cannot be declared before named exception block (ex, except ValueError:)
+
+ValueError
+AttributeError - when a function is used where it's not 
+
+String slicing
+
+sorted() - immutable
+sort() - mutable
+------------------------------------------------------------------------------------------
+
+DAY5 FRIDAY 14 MARCH 2025
+-------------------------
+
+LIST       - ordered,     mutable   --> a data structure where elements are stored consecutively
+TUPLE      - ordered,     immutable --> a read only list
+SET        - not ordered, mutable   --> has unique elements
+DICTIONARY - ordered,     mutable   --> key-value pairs
+
+map() - scans every element in a list and converts to a mentioned datatype | behaves like a for each loop.
+data from python to OS and vice versa is passed as string
+
+CRUD Operations
+SOAP
+HTTP
+RESTful APIs
+
+VERBS
+-----
+Post    create (insert record)
+get     read all   (get/id read one)
+put     update one record
+delete  delete one record
+
+.append() --> inserts element at rear end of the list
+.pop()    --> delete and return the last element in the list
+.insert() --> inserts element from the front
+remove() --> remove a specific element
+del      --> remove an element from a specific index
+
+queue - first in first out
+stack - first in last out
+
+switch -
+match argu:
+	case
+
+pip install module_name --> to downlaod a module

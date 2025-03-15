@@ -1,0 +1,57 @@
+STEPS TO DOWNLOAD MYSQL
+G search: downlod mysql
+Scroll down: MySQL Commuity (GPL) Downloads
+
+
+
+INSTALLATION OF MYSQL
+---------------------
+> Choosing a Setup Type > Full > Next
+> Check Requirements > Execute
+> Microsoft V C++ > Install
+> Installation > Execute > Next > Next
+> Type and Networking > Next > Next 
+> Accounts and Roles > enter password "Root"
+> Windows Service > Next
+> Server File Permissions
+> Apply Configuration > Execute > Finish
+> Product Configuration > Next
+> MySQL Router 
+> Connect to Server > check ?
+> Apply configuration > Execute > Finish
+> Next > Finish
+
+mysql --version
+mysql -u root -p
+Enter your password:
+
+
+> select database();  //This query lists the currrent DB we are in
+> show databases;     // lists all the DB names
+> create database greeshma_db;   //creates a new DB with the given name
+> use greeshma_db;          //switches into given database
+> select database() as Current_DB    //lists the current DB we are in and gives the heading (alias)
+
+model - real life entity - table
+Entity name: person (Model)
+id 
+name
+gender
+location
+
+create table persons(id int primary key auto_increment, name varchar(40), gender varchar(1), location varchar(30)
+
+ use name_db;
+ show database;
+ delete from persons where id = 1;
+ update persons set id = 3 where id = 6;
+ select * from persons;
+ insert into persons(name, gender, location) values('greeshma', 'f', 'mysuru');
+ desc persons;
+ select count(*) from persons where gender = 'f';
+ select count(*) as Count_of_Females from persons where gender = 'f';
+ select max(id) as Max_Id from persons;
+ select distinct locations from persons;
+ select count(*) as Count_of_Gender_Null from persons where gender is null;
+ 
+ 
